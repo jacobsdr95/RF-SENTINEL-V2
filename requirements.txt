@@ -1,0 +1,65 @@
+# RF Sentinel v15 — Python dependencies
+# =======================================
+# pip install -r requirements.txt
+#
+# Hard deps are required; the system will not start without them.
+# Optional deps are soft-imported at runtime; the system degrades
+# gracefully when they are absent.
+# -----------------------------------------------------------------------
+
+# ============================================================
+# HARD — required
+# ============================================================
+
+# Numerical / signal processing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine learning (core AI pipeline)
+scikit-learn>=1.0.0
+joblib>=1.1.0
+
+# Web UI
+flask>=2.0.0
+Werkzeug>=2.0.0
+
+# HackRF hardware interface — choose ONE:
+#   Option A (default): HackRF One
+pyhackrf>=0.1.0
+#   Option B: RTL-SDR dongle (limited bandwidth)
+# pyrtlsdr>=0.2.91
+
+# ============================================================
+# OPTIONAL — features noted inline
+# ============================================================
+
+# HMM per-type anomaly model (DRONE_FHSS, GPS_SPOOF)
+hmmlearn>=0.2.8
+
+# LightGBM — faster drop-in replacement for RandomForest (AI [3])
+# If installed, SDR-BLUE-TEAM.py auto-selects LightGBM over scikit-learn RF.
+lightgbm>=4.0.0
+
+# XGBoost — second-priority RF replacement (used if lightgbm not installed)
+xgboost>=1.7.0
+
+# Live spectrum GUI (separate subprocess, never blocks sweep loop)
+# If absent, the GUI process silently does not start.
+matplotlib>=3.5.0
+
+# PDF incident reports (AutomatedResponseAgent)
+reportlab>=4.0.0
+
+# HTTP webhook support for Telegram / Discord / Slack (agents)
+# If absent, agents fall back to the built-in urllib fallback.
+requests>=2.28.0
+
+# SigMF metadata alongside evidence .iq (optional)
+# sigmf>=1.0.0   # uncomment to enable standard SigMF metadata output
+
+# ============================================================
+# DEVELOPMENT / TESTING — uncomment as needed
+# ============================================================
+# pytest>=7.0.0       # unittest works without it; pytest gives nicer output
+# coverage>=7.0.0
+# pip-audit>=2.0.0    # check for CVEs in dependencies
