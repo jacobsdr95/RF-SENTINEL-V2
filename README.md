@@ -1,4 +1,4 @@
-# RF Sentinel v15 — Dual-AI RF Monitor (Blue Team)
+# RF Sentinel v2 — Dual-AI RF Monitor (Blue Team)
 
 > **A passive (receive-only) radio-frequency spectrum monitor that detects anomalies and classifies threats using a multi-layer AI pipeline.**
 
