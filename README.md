@@ -881,12 +881,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 
-                     **GUERILLA OPEN SOURCE MANIFESTO**
+                     GUERILLA OPEN SOURCE MANIFESTO
                                    ——
-                              **Aaron Swartz**
-                        **July 2008, Eremo, Italy**
+                            *Aaron Swartz
+                        July 2008, Eremo, Italy
 
---------------------------------------------------------------------------------
+
 **Guerilla Open Access Manifesto** 
 
 Information is power. But like all power, there are those who want to keep it for 
@@ -950,3 +950,4 @@ privatization of knowledge — we'll make it a thing of the past. Will you join 
 
 *July 2008, Eremo, Italy*
 
+--------------------------------------------------------------------------------
