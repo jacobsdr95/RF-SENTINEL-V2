@@ -883,7 +883,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
                      GUERILLA OPEN SOURCE MANIFESTO
                                    ——
-                            *Aaron Swartz
+                            Aaron Swartz
                         July 2008, Eremo, Italy
 
 
